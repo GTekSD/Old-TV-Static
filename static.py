@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+from tqdm import tqdm
 
 # Set the width and height of the video
 width = 1920
@@ -13,7 +14,7 @@ fourcc = cv2.VideoWriter_fourcc(*'mp4v')
 out = cv2.VideoWriter('static.mp4', fourcc, fps, (width, height))
 
 # Generate frames of static and write them to the output video
-for i in range(1800):
+for i in tqdm(range(1800)):
     # Create a random matrix of values between 0 and 255
     static = np.random.randint(0, 256, (height, width, 3), dtype=np.uint8)
 
