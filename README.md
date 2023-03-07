@@ -13,7 +13,7 @@ pip install -r requirements.txt
 
 To generate a video of static, run the following command:
 ```
-python generate_static.py
+python static.py
 ```
 
 By default, this will generate a 10-second video of static in 1080p resolution and 60 frames per second. You can adjust the length and resolution of the video by changing the values in the `generate_static.py` file.
