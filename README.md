@@ -1,3 +1,5 @@
+![ideogram](https://github.com/GTekSD/Old-TV-Static/assets/55411358/2193ffbe-a48c-4deb-8653-b6e370f4a7cc)
+
 # Old TV Static
 
 "Old TV Static" is a Python project that generates a high-quality video of black and white static, using the OpenCV and tqdm libraries.
